@@ -1,0 +1,16 @@
+/* Navbar */
+
+nav {
+    background-color: #009CA7;
+}
+
+nav img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.navbar-brand,
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+}
