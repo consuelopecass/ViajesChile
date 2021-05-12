@@ -14,3 +14,10 @@ nav img {
 .nav-link {
     font-family: 'Raleway', sans-serif;
 }
+
+
+/* Header */
+
+#Hero-Section img {
+    height: 100vh;
+}
