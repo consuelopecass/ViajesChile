@@ -65,3 +65,16 @@ nav img {
 #Destacados img {
     max-height: 170.63px;
 }
+
+
+/* Contacto */
+
+#Contacto {
+    font-family: 'Raleway', sans-serif;
+}
+
+#Contacto hr {
+    color: #009CA7;
+    border: 1px solid;
+    width: 93%
+}
