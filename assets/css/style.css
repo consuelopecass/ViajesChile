@@ -1,13 +1,19 @@
 body {
+    padding: 0;
+    margin: 0;
     background-color: #000;
 }
 
 
 /* Navbar */
 
+
+/*
+
 nav {
-    background-color: #009CA7;
+    background-color: #00A5BB;
 }
+*/
 
 nav img {
     width: 30px;
@@ -24,7 +30,7 @@ nav img {
 /* Header */
 
 #Hero-Section img {
-    height: 90vh;
+    height: 100vh;
 }
 
 
@@ -35,13 +41,13 @@ nav img {
 }
 
 #QuienesSomos hr {
-    color: #009CA7;
+    color: #00A5BB;
     border: 1px solid;
     width: 95%;
 }
 
 #QuienesSomos article div {
-    background-color: #009CA7;
+    background-color: #00A5BB;
     padding: 0 8px;
 }
 
@@ -57,13 +63,18 @@ nav img {
 }
 
 #Destacados hr {
-    color: #009CA7;
+    color: #00A5BB;
     border: 1px solid;
     width: 93%;
 }
 
 #Destacados img {
-    max-height: 170.63px;
+    max-height: 158.63px;
+}
+
+#Destacados .card-body {
+    background-color: #00A5BB;
+    color: #fff;
 }
 
 
@@ -74,7 +85,7 @@ nav img {
 }
 
 #Contacto hr {
-    color: #009CA7;
+    color: #00A5BB;
     border: 1px solid;
     width: 93%
 }
@@ -83,6 +94,6 @@ nav img {
 /* Footer */
 
 footer {
-    background-color: #009CA7;
+    background-color: #00A5BB;
     font-family: 'Raleway', sans-serif;
 }
