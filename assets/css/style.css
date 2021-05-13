@@ -48,3 +48,20 @@ nav img {
 #QuienesSomos article div i {
     color: #fff;
 }
+
+
+/* Destacados */
+
+#Destacados {
+    font-family: 'Raleway', sans-serif;
+}
+
+#Destacados hr {
+    color: #009CA7;
+    border: 1px solid;
+    width: 93%;
+}
+
+#Destacados img {
+    max-height: 170.63px;
+}
