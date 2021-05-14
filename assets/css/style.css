@@ -101,6 +101,12 @@ nav img {
 footer {
     background-color: #00A5BB;
     font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:visited {
+    color: #fff
 }
 
 
