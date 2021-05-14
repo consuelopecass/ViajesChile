@@ -19,7 +19,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <nav class="navbar fondo-navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
         <img src="assets/img/viajes.svg" class="ml-5" alt="Logo ViajesChile">
         <a class="navbar-brand" href="#">Viajes Chile</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,10 +78,10 @@
         <hr class="mb-4">
         <div class="row mx-5">
             <article class="col-12 col-sm-4">
-                <div class="py-2 mt-2">
+                <div class="py-2 mt-2" data-toggle="popover1" data-placement="top" title="¡Benji desde un avión!" data-content="Ten una nueva vista de todo Santiago">
                     <i class="fas fa-plane fa-2x"></i>
                 </div>
-                <p class="text-left mt-2">
+                <p class="popover1 text-left mt-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, accusantium veniam! Nesciunt laborum temporibus id ex! Perspiciatis saepe, quia, voluptatum aspernatur quos placeat mollitia ipsam suscipit dolore facere voluptatibus eveniet! Ducimus suscipit
                     distinctio voluptatum dolor autem quod placeat architecto praesentium, culpa iusto, quia enim nobis inventore voluptatem dolorem? Cum reiciendis inventore ut cumque numquam architecto aliquam dolore expedita doloribus fugit. Incidunt
                     nisi corrupti necessitatibus. Deserunt architecto laudantium dolor necessitatibus corrupti delectus quo sed eos ipsum et deleniti culpa quidem voluptas eum maxime, libero dolores est ipsa veniam dolorem iusto rerum.
@@ -93,12 +93,12 @@
                     distinctio voluptatum dolor autem quod placeat architecto praesentium, culpa iusto, quia enim nobis inventore voluptatem dolorem? Cum reiciendis inventore ut cumque numquam architecto aliquam dolore expedita doloribus fugit. Incidunt
                     nisi corrupti necessitatibus. Deserunt architecto laudantium dolor necessitatibus corrupti delectus quo sed eos ipsum et deleniti culpa quidem voluptas eum maxime, libero dolores est ipsa veniam dolorem iusto rerum.
                 </p>
-                <div class="py-2 mb-3">
+                <div class="py-2 mb-3" data-toggle="popover2" data-placement="right" title="¡Subamos la montaña!" data-content="El más expectacular trekking de todo Chile">
                     <i class="fas fa-mountain fa-2x"></i>
                 </div>
             </article>
             <article class="col-12 col-sm-4">
-                <div class=" py-2 mt-2">
+                <div class="py-2 mt-2" data-toggle="popover3" data-placement="top" title="¡Viajemos en auto!" data-content="Atrévete a vivir esta experiencia extrema">
                     <i class="fas fa-route fa-2x"></i>
                 </div>
                 <p class="text-left mt-2">
@@ -119,8 +119,8 @@
             <div class="row">
 
                 <div class="col-12 col-sm-3 pb-4">
-                    <div class="card mx-auto h-100 border-1" style="width: 15rem;">
-                        <img data-toggle="modal" data-target="#exampleModal" src="assets/img/card1.jpg" class="card-img-top" alt="Viaje al Sur">
+                    <div class="card mx-auto h-100 border-1">
+                        <img data-toggle="modal" data-target="#Modal" src="assets/img/card1.jpg" class="card-img-top" alt="Viaje al Sur">
                         <div class="card-body">
                             <h4 class="card-title">Viaje al Sur por 4 días</h4>
                             <p class="card-text font-weight-normal">
@@ -131,8 +131,8 @@
                 </div>
 
                 <div class="col-12 col-sm-3 pb-4">
-                    <div class="card mx-auto h-100 border-1" style="width: 15rem;">
-                        <img src="assets/img/card2.jpg" class="card-img-top" alt="Viaje al Norte">
+                    <div class="card mx-auto h-100 border-1">
+                        <img data-toggle="modal" data-target="#Modal" src="assets/img/card2.jpg" class="card-img-top" alt="Viaje al Norte">
                         <div class="card-body">
                             <h4 class="card-title">Maravillas del Norte de Chile</h4>
                             <p class="card-text font-weight-normal">
@@ -143,8 +143,8 @@
                 </div>
 
                 <div class="col-12 col-sm-3 pb-4">
-                    <div class="card mx-auto h-100 border-1" style="width: 15rem;">
-                        <img src="assets/img/card3.jpg" class="card-img-top" alt="Redescubre Atacama">
+                    <div class="card mx-auto h-100 border-1">
+                        <img data-toggle="modal" data-target="#Modal" src="assets/img/card3.jpg" class="card-img-top" alt="Redescubre Atacama">
                         <div class="card-body">
                             <h4 class="card-title">Redescubre el Desierto de Atacama</h4>
                             <p class="card-text font-weight-normal">
@@ -155,8 +155,8 @@
                 </div>
 
                 <div class="col-12 col-sm-3 pb-4">
-                    <div class="card mx-auto h-100 border-1" style="width: 15rem;">
-                        <img src="assets/img/card4.jpg" class="card-img-top" width="" alt="Visita el bosque del Sur">
+                    <div class="card mx-auto h-100 border-1">
+                        <img data-toggle="modal" data-target="#Modal" src="assets/img/card4.jpg" class="card-img-top" width="" alt="Visita el bosque del Sur">
                         <div class="card-body">
                             <h4 class="card-title">Visita el bosque del Sur</h4>
                             <p class="card-text font-weight-normal">
@@ -202,7 +202,7 @@
     <footer id="Footer" class="text-center text-white py-1">
         <div class="row container m-auto">
             <div class="col-12 col-sm-6">
-                <h3 class="text-uppercase mt-2">Viajes Chile</h3>
+                <h3 class="text-uppercase mt-2" data-toggle="tooltip" data-placement="right" title="Sigue nuestras redes sociales">Viajes Chile</h3>
             </div>
 
             <div class="col-12 col-sm-6 mt-2 mt-sm-0">
@@ -214,6 +214,25 @@
         </div>
     </footer>
     <!-- Fin Footer -->
+
+    <!-- Modal -->
+    <div class="modal fade text-center" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog text-center">
+            <div class="modal-content text-center">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title text-center" id="exampleModalLabel">Date el gusto de viajar</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body text-center">
+                    <h4 class="text-center"> - Viajes Chile - </h4>
+                    <img src="/assets/img/viajes.svg" width="40px" height="50px" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Modal -->
 
     <!-- jQuery 3.5.1 -->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
